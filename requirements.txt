@@ -1,0 +1,14 @@
+# use Python 3.11
+# for local installation on MacOs use:
+
+#brew install llvm libomp
+#export LDFLAGS="-L/usr/local/opt/libpq/lib"
+#export CPPFLAGS="-I/usr/local/opt/libpq/include"
+#MACOSX_DEPLOYMENT_TARGET=10.9 CC=/usr/local/opt/llvm/bin/clang \
+#    CXX=/usr/local/opt/llvm/bin/clang++ \
+#    pip install xformers
+
+
+torch==2.2.2
+xformers
+sentence-transformers
